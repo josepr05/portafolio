@@ -1,0 +1,138 @@
+* {
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    background: linear-gradient(#bbb8e9);
+    
+    
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+    transform: rotate(-10deg);
+    
+}
+
+main{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    
+      
+    
+}
+
+.textArea{
+    border: none;
+    color: #0A3871;
+    margin-top: 4px;
+    text-transform: lowercase;
+    background-color: #efeff7;
+}
+::placeholder { color: #0A3871;}
+    .textArea:focus{
+        outline: none;
+    }
+
+
+
+.mensaje{
+    background: rgb(224, 216, 216);
+    background-image: url("imagenes/muneco.png");
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: -11%;
+    margin-top: 10px;
+    padding-left: 20px;
+    
+}
+
+.mensaje:focus{
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+
+}
+
+.btn-desencriptar{
+    background: #d8dfe8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-encriptar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;    
+    width: 328px;
+}
+
+.btn-pegar{
+    background-color: #86a3c5;
+    border: 1px solid #252c35;
+    border-radius: 24px;
+    color: #ffffff;
+    cursor: pointer;
+    height: 67px;    
+    width: 200px;
+    margin-left: 30px;
+}
+.btn-pegar:hover{
+    background-color: #252c35;
+    color: #666f7a;
+}
+
+
+.btn-copiar{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: -1%;
+    margin-top: -2%;
+    position: absolute;
+    width: 336px;
+    
+}
+
+.informacion{
+    color: #495057;
+    font-size: 18px;
+}
+
+.container{
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.icono{
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+}
+
+.icono:hover{
+    width: 65px;
+    height: 65px;    
+}
